@@ -1,38 +1,33 @@
 ## Airways Dashboard Overview
 
-This dashboard allows users to dynamically select and view key metrics, such as overall ratings, food ratings, or entertainment ratings, with a simple click. It includes multiple filters to refine data selection, and each visual also functions as a dynamic filter, enabling users to easily explore specific dates or countries of interest.
+Designed an interactive Tableau dashboard to analyze British Airways customer reviews (March 2016 – October 2023), highlighting key service metrics, trends, and actionable insights. The dashboard enables dynamic exploration of traveler feedback across categories like seat comfort, entertainment, and cabin service.
+## Use Case:
 
-![alt text](https://github.com/kChe626/Airways-Visulazation-Dashboard-Tableau/blob/main/Dashboard.png)
+![alt text](https://github.com/kChe626/Airways-Visulazation-Dashboard-Tableau/blob/main/Dashboard_snapshot.png)
 
-##Airline Passenger Reviews Dataset
+## Airline Passenger Reviews Dataset
 
-This dataset contains structured airline passenger reviews, providing insights into customer satisfaction based on various flight experience factors. It includes details such as reviewer information, travel route, aircraft type, and traveler classification. Key performance metrics include ratings for seat comfort, cabin staff service, food and beverages, ground services, entertainment, and overall experience. Additionally, it tracks whether trips were verified and whether passengers recommend the airline.
+This dataset contains airline passenger reviews, providing insights into customer satisfaction based on various flight experience factors. It includes details such as reviewer information, travel route, aircraft type, and traveler classification. Key performance metrics include ratings for seat comfort, cabin staff service, food and beverages, ground services, entertainment, and overall experience. Additionally, it tracks whether trips were verified and whether passengers recommend the airline.
 
+## Dashboard Key Features
 
+Interactive Filters:
 
-## Main Visualizations:
+- Traveller Type (Business, Solo/Couple/Family Leisure).
+- Seat Type (Economy, Business, First, Premium Economy).
+- Aircraft (Boeing 787, A380, etc.), Continent, and Date Range.
 
- Average Food by Month (Line Chart)
-        Displays the trend of food ratings over time from 2016 to 2023.
-        There are fluctuations in ratings, with noticeable dips and peaks.
+Core Metrics:
 
-Average Food by Country (Map)
-        Shows the distribution of food ratings geographically.
-        Darker green shades likely represent higher ratings.
+- Average ratings for Overall Experience (4.2/5), Cabin Staff Service (3.3), Seat Comfort (2.9), and more.
+- Weaknesses identified: Entertainment (1.4) and Food & Beverages (2.4).
 
- Average Food by Aircraft (Bar Chart)
-        Lists different aircraft models along with their average food ratings.
-        The Boeing 777-200 has the highest average food rating (3.8), while the A319 has the lowest (1.1).
-        The brown-colored bars on the right indicate the number of reviews per aircraft, with the A380 having the highest number of reviews (48).
-
-## Key Insights:
-
-Food ratings vary significantly by aircraft type, with larger aircraft like the Boeing 777-200 receiving better reviews than smaller planes.
-Food ratings fluctuate over time, indicating periods of improvement or decline.
-Regional differences exist, as visualized in the country-based map.
-Passengers in different seat classes and travel types might have different experiences, which users can explore using the filters.
+Visualizations:
+- Time trends (monthly/yearly ratings).
+- Breakdowns by country, aircraft, and seat class.
 
 ## Use Case:
 
 This dashboard is useful for airline service analysts, business decision-makers, or travelers interested in understanding British Airways' service quality based on passenger feedback.
+
 
