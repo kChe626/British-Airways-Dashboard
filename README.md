@@ -1,4 +1,4 @@
-
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 # ✈️ Airways Dashboard: British Airways Review Analysis
 
 This interactive **Tableau dashboard** analyzes British Airways customer reviews from **March 2016 to October 2023**, highlighting key satisfaction metrics, service trends, and improvement areas. It allows stakeholders to explore feedback across traveler types, aircraft models, seat classes, and global regions.
@@ -76,3 +76,6 @@ flowchart TD
   D --> E[Add Interactive Filters]
   E --> F[Final Dashboard Published]
 ```
+---
+
+- Tableau Dashboard: [Car Sales Dashboard](https://github.com/kChe626/Airways-Visulazation-Dashboard-Tableau/blob/main/airways.twbx)
