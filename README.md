@@ -1,32 +1,78 @@
-## Airways Dashboard Overview
 
-Designed an interactive Tableau dashboard to analyze British Airways customer reviews (March 2016 – October 2023), highlighting key service metrics, trends, and actionable insights. The dashboard enables dynamic exploration of traveler feedback across categories like seat comfort, entertainment, and cabin service.
+# ✈️ Airways Dashboard: British Airways Review Analysis
 
-![Dashboard Overview](https://github.com/kChe626/Snapshots/blob/main/Airline%20Tab.gif)  
+This interactive **Tableau dashboard** analyzes British Airways customer reviews from **March 2016 to October 2023**, highlighting key satisfaction metrics, service trends, and improvement areas. It allows stakeholders to explore feedback across traveler types, aircraft models, seat classes, and global regions.
 
-## Airline Passenger Reviews Dataset
+![Dashboard Overview](https://github.com/kChe626/Snapshots/blob/main/Airline%20Tab.gif)
 
-This dataset contains airline passenger reviews, providing insights into customer satisfaction based on various flight experience factors. It includes details such as reviewer information, travel route, aircraft type, and traveler classification. Key performance metrics include ratings for seat comfort, cabin staff service, food and beverages, ground services, entertainment, and overall experience. Additionally, it tracks whether trips were verified and whether passengers recommend the airline.
+---
 
-## Dashboard Key Features
+## 📊 Dataset Summary
 
-Interactive Filters:
+The dataset includes airline passenger reviews with structured feedback on:
 
-- Traveller Type (Business, Solo/Couple/Family Leisure).
-- Seat Type (Economy, Business, First, Premium Economy).
-- Aircraft (Boeing 787, A380, etc.), Continent, and Date Range.
+- **Traveler Details**: Type (e.g., Business, Leisure), verification status, origin/destination  
+- **Flight Details**: Aircraft type, route, class of travel  
+- **Ratings**: Overall Experience, Cabin Staff Service, Seat Comfort, Food & Beverages, Entertainment, Ground Service  
+- **Recommendation**: Whether the passenger would recommend the airline
 
-Core Metrics:
+---
 
-- Average ratings for Overall Experience (4.2/5), Cabin Staff Service (3.3), Seat Comfort (2.9), and more.
-- Weaknesses identified: Entertainment (1.4) and Food & Beverages (2.4).
+## 📌 Dashboard Highlights
 
-Visualizations:
-- Time trends (monthly/yearly ratings).
-- Breakdowns by country, aircraft, and seat class.
+### 🔍 Interactive Filters:
+- Traveler Type (Business, Solo, Couple, Family)
+- Seat Class (Economy, Premium Economy, Business, First)
+- Aircraft Model (e.g., A380, Boeing 787)
+- Continent & Review Date Range
 
-## Use Case:
+### 📈 Core Metrics:
+- **Average Ratings**:
+  - Overall Experience: 4.2 
+  - Cabin Staff Service: 3.3 
+  - Seat Comfort: 2.9 
+  - Food & Beverages: 2.4 
+  - Entertainment: 1.4 
+- **Identified Weaknesses**: Entertainment & Food Service
 
-This dashboard is useful for airline service analysts, business decision-makers, or travelers interested in understanding British Airways' service quality based on passenger feedback.
+### 📊 Visuals Include:
+- Monthly and yearly trend lines
+- Ratings breakdown by:
+  - Aircraft model
+  - Traveler type
+  - Country of origin
+  - Cabin class
 
+---
 
+## ✅ Use Case
+
+This dashboard supports:
+- **Airline product teams** optimizing service quality
+- **Customer experience teams** analyzing feedback trends
+- **Travel analysts** comparing traveler sentiment across dimensions
+
+---
+
+## 🛠️ Tools & Technologies
+- **Tableau**: Dashboard development
+- **Excel/CSV**: Data formatting and preprocessing
+
+---
+
+## 🧭 Project Flow
+
+```mermaid
+flowchart TD
+  A[Passenger Review Dataset] --> B[Import into Tableau]
+  B --> C[Data Cleaning & Prep]
+  C --> C1[Parse Dates]
+  C --> C2[Group by Traveler Type]
+  C --> C3[Filter Verified Reviews]
+  C --> D[Create Dashboard Visuals]
+  D --> D1[Average Rating Metrics]
+  D --> D2[Trend Analysis]
+  D --> D3[Seat Class & Aircraft Breakdown]
+  D --> E[Add Interactive Filters]
+  E --> F[Final Dashboard Published]
+```
