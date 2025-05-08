@@ -1,5 +1,5 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-# ✈️ Airways Dashboard: British Airways Review Analysis
+#  Airways Dashboard: British Airways Review Analysis
 
 This interactive **Tableau dashboard** analyzes British Airways customer reviews from **March 2016 to October 2023**, highlighting key satisfaction metrics, service trends, and improvement areas. It allows stakeholders to explore feedback across traveler types, aircraft models, seat classes, and global regions.
 
@@ -7,7 +7,7 @@ This interactive **Tableau dashboard** analyzes British Airways customer reviews
 
 ---
 
-## 📊 Dataset Summary
+##  Dataset Summary
 
 The dataset includes airline passenger reviews with structured feedback on:
 
@@ -18,15 +18,15 @@ The dataset includes airline passenger reviews with structured feedback on:
 
 ---
 
-## 📌 Dashboard Highlights
+##  Dashboard Highlights
 
-### 🔍 Interactive Filters:
+###  Interactive Filters:
 - Traveler Type (Business, Solo, Couple, Family)
 - Seat Class (Economy, Premium Economy, Business, First)
 - Aircraft Model (e.g., A380, Boeing 787)
 - Continent & Review Date Range
 
-### 📈 Core Metrics:
+###  Core Metrics:
 - **Average Ratings**:
   - Overall Experience: 4.2 
   - Cabin Staff Service: 3.3 
@@ -35,7 +35,7 @@ The dataset includes airline passenger reviews with structured feedback on:
   - Entertainment: 1.4 
 - **Identified Weaknesses**: Entertainment & Food Service
 
-### 📊 Visuals Include:
+###  Visuals Include:
 - Monthly and yearly trend lines
 - Ratings breakdown by:
   - Aircraft model
@@ -45,7 +45,7 @@ The dataset includes airline passenger reviews with structured feedback on:
 
 ---
 
-## ✅ Use Case
+##  Use Case
 
 This dashboard supports:
 - **Airline product teams** optimizing service quality
@@ -54,13 +54,13 @@ This dashboard supports:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Tableau**: Dashboard development
 - **Excel/CSV**: Data formatting and preprocessing
 
 ---
 
-## 🧭 Project Flow
+##  Project Flow
 
 ```mermaid
 flowchart TD
