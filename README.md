@@ -42,7 +42,13 @@ This dashboard is designed for:
 - Airline operations teams to monitor and analyze flight patterns and performance across destinations.
 - Business analysts to identify top-performing routes and regions, supporting strategic decisions.
 - Executives and planners to visualize operational KPIs and geographic trends at a glance.
-- Interactive reporting where users can dynamically filter data by region, destination, or route to explore specific business questio
+- Interactive reporting where users can dynamically filter data by region, destination, or route to explore specific business question
+
+## Key Insights
+
+- **Top Destination:** London Heathrow (2,450 flights)
+- **Most Active Region:** Europe (52% of total flights)
+- **Peak Month:** July, with 15% above average flight volume
 
 ## Tableau File
 - Tableau Dashboard: [Car Sales Dashboard](https://github.com/kChe626/Airways-Visulazation-Dashboard-Tableau/blob/main/airways.twbx)
