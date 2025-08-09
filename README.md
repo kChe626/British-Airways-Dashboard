@@ -68,6 +68,9 @@ It integrates flight-level route data with country-level attributes to uncover p
 
 ---
 
+## **Business Relevance**
+This dashboard enables route planners and operations managers to identify high-performing destinations, seasonal travel patterns, and underutilized routes. The insights can be used to optimize scheduling, improve fleet allocation, and enhance passenger load management.
+
 ## **Files**
 - [Tableau Workbook](https://github.com/kChe626/British-Airways-Dashboard/blob/main/airways.twbx)  
 - [airways_data.csv](https://github.com/kChe626/British-Airways-Dashboard/blob/main/airways_data.csv)  
